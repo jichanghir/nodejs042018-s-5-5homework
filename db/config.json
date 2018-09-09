@@ -1,12 +1,5 @@
 {
     "db": {
-        "host": "ds259897.mlab.com",
-        "port": "59897",
-        "name": "heroku_0mrgzccz",
-        "user": "heroku_0mrgzccz",
-        "password": "j45r7nm6l4l0ekkca5fmv27649"
-    },
-    "db-local": {
         "host": "localhost",
         "port": "27017",
         "name": "test5",

@@ -4,7 +4,7 @@ const config = require('./config.json');
 // Use native promises
 mongoose.Promise = global.Promise; // es6 promise
 
-const connectionURL = `mongodb://${config.db.user}:${config.db.password}@${config.db.host}:${config.db.port}/${config.db.name}`;
+const connectionURL = `mongodb://${config.db.user}@${config.db.host}:${config.db.port}/${config.db.name}`;
 
 mongoose.connect(connectionURL, { useNewUrlParser: true })
 .catch((e) => console.error(e));
