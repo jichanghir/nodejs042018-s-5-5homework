@@ -1,9 +1,11 @@
 {
     "db": {
-        "host": "localhost",
-        "port": "27017",
-        "name": "test5",
-        "user": "",
-        "password": ""
+        "host": "ds151282.mlab.com",
+        "port": "51282",
+        "name": "heroku_l01k3t94",
+        "user": "heroku_l01k3t94",
+        "password": "neqaoqiiukukcqjb9pu5tdk9vu"
     }
 }
+
+// mongodb://heroku_l01k3t94:neqaoqiiukukcqjb9pu5tdk9vu@ds151282.mlab.com:51282/heroku_l01k3t94
